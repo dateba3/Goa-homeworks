@@ -1,1 +1,1 @@
-print("dato datebashvili")
+print("dato datdatebashvili")
