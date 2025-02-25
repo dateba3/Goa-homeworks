@@ -4,6 +4,7 @@
 
 number=7382332
 age=37189
+
 print(type(7382323))
 
 print(type("37189"))
