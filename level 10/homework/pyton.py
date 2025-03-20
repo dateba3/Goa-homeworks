@@ -3,6 +3,10 @@
 #outoput არის ის რაც მაგალითად რაც გვესმის ან ეკრანზე გამოტანა ან რამის გაგება 
 
 #3) მომხმარებელს შემოატანინეთ ორი სიტყვა, შეინახეთ ისინი ცვლადში, მოახდინეთ მათი კონკადინაცია და დაბეჭდეთ
+number=input("plase enter number: ")
+number=input("plase enter number: ")
+
+print(number)
 
 #4) მომხმარებელს შემოატანინეთ 5 რიცხვი და დაბეჭდეთ მათი საშუალო არითმეტიკული.
 number1=input("plase enter you social number: ")
@@ -14,3 +18,13 @@ number5=input("please enter you code that will be sent in you phone: ")
 print(int(number1)+int(number2)+int(number3)+int(number4)+int(number5)/5)
 
 #5) მომხმარებელს შემოატანინეთ სახელი, გვარი, ასაკი, სიმაღლე, წონა და მათი გამოყენებით დაბეჭდეთ წინადადება.
+name=input("please enter you name: ")
+username=input("please enter you username")
+age=input("plase entr you age: ")
+height=input("plase enter you hight: ")
+weight=input("pleas enter you weight: ")
+print(name)
+print(username)
+print(age)
+print(height)
+print(weight)
