@@ -16,15 +16,15 @@ print(pasword==pasword1)
 #4) კომენტარებით ახსენით რა არის ლოგიკური ოპერატორები და გააკეთეთ თითოეულ ოპერატორზე 4-4 მაგალითი
 #იგი გამოიყენება სიმართლის ან ტყუილის გასარკვევად ის საზღვრავს რაიმე მოქმედებას სიმართლეა თუ არა, ლოგიკური ოპერატორებია end, or
 
-print(5 > 3 and 2 < 4) 
-print(5 < 3 and 2 < 4) 
-print(5 < 3 and 2 > 4)
-print(10 == 10 and 7 >= 5)
+print(5 > 3 and 2 < 4) #True
+print(5 < 3 and 2 < 4) #False
+print(5 < 3 and 2 > 4) #False
+print(10 == 10 and 7 >= 5) #True
 
-print(5 > 3 or 2 > 4)
-print(5 < 3 or 2 < 4)
-print(5 == 5 or 10 < 20)
-print(7 < 10 or 2 > 4) 
+print(5 > 3 or 2 > 4) #True
+print(5 < 3 or 2 < 4) #False
+print(5 == 5 or 10 < 20) #True
+print(7 < 10 or 2 > 4) #True
 
 #5) გადახედეთ შემდეგ რესურსს:
 #გადავხედე
