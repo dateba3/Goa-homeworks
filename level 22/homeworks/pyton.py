@@ -32,8 +32,13 @@ for i in range(1,31,):
 
         
 #5) მომხმარებელს შემოატანინეთ რიცხვი და დაბეჭდეთ მიღებული რიცხვის ყველა გამყოფი(გამოიყენეთ for loop-ი)
+number=int(input("enter number: "))
 
-
+print("gamyopi is: ")
+for i in range(1, number+1):
+    if number % i==0:
+        print(i)
+        
 #6) დაწერეთ პროგრამა, რომელიც მომხმარებელს შემოატანინებს რიცხვს და დაბეჭდავს ეს რიცხვი დადებითია, უარყოფითია თუ 0-ია
 number=int(input("please enter you number: "))
 if number>0:

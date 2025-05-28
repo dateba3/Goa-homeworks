@@ -9,7 +9,7 @@ while number < 10:
     print(number)
     number=number+1
 #2) დაბეჭდეთ 20-დან 100-ის ჩათვლით ყველა რიცხვი
-number=0
+number=20
 while number <101:
     print(number)
     number=number+1
@@ -20,5 +20,8 @@ while number <21:
     print(number)
     number=number+2
 #4) დაბეჭდეთ 30-დან 50-მდე ყოველი მეოთხე რიცხვი
-
+number=30
+while number <51:
+    print(number)
+    number=number+4
 #გააკეთეთ ეს დავალებები while ციკლით

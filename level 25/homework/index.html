@@ -1,0 +1,39 @@
+<!--2) კომენტარებით ახსენით და ისაუბრეთ radio/checkbox ტიპის input-ებზე.
+
+3) გაიმეორეთ ყველა ნასწავლი ატრიბუტი რომლებიც ეხება ფორმებს: type, name, id, for, value, placeholder, required. კარგი იქნება თუ ჩამოწერთ, რისთვის გამოიყენება ისინი
+
+4) შექმენით პროდუქტების დამატების ფორმა. მომხარებელს შემოატანინეთ პროდუქტის სახელი, მისი ფასი და გამოშვების თარიღი.
+
+5) შექმენით ერთგვერდიანი საიტი თავისუფალ თემაზე. გამოიყენეთ ყველა ნასწავლი მასალა, მათ შორის ფორმებიც. შეეცადეთ ახსნათ ყველაფერი კომენტარებით.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- radio-ს არჩევის დროს არ შეგიძლია მონიშვნის გაუქმება ხოლო checkbox-ში შეგვიძლია. მათ ასევე აქვთ სხვადასვხა ფორმები (რადიოს წრე, ხოლო ჩეკბოქსს ოთხკუთხედი) -->
+    <form>
+        <label for="name">Enter username</label>
+        <input type="text" name="Username" id="name" value="name2" placeholder="enter name" required>
+        <br><br><br><br>
+        <label for="productname">Enter product name</label>
+        <input type="text" id="productname">
+        <br>
+        <label for="price">Enter price for product</label>
+        <input type="number" id="price">
+        <br>
+        <label for="date">Enter date of this product</label>
+        <input type="date" id="date">
+    </form>
+    <!-- required- ინფუთი ამ ატრიბუტით აუცილებლად შესავსებია  -->
+    <!-- placeholder- იგივე ფუნქცია აქვს როგორც label-ს მაგრამ ინფუთშია ჩაწერილი  -->
+    <!-- value - ასევე იყენება მონაცემთა ბაზაში შესანახად მაგრამ არის name-ში შენახული. ასევე არის ინფუტში ჩაწერილი სანამ მომხმარებელი შეიტანს ინფორმაციას  -->
+    <!-- for- იყენება ლეიბელის ინფუთთან დასაკავშირებლად -->
+    <!-- id- უნიკალურობა მივანიჭოთ ელემენტს -->
+    <!-- name- ძირითადად იყენება მონაცემთა ბაზაში შესანახად -->
+    <!-- type- ვუთითებთ თუ როგორი უნდა იყოს ინფუთი -->
+    
+</body>
+</html>
