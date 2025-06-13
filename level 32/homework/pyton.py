@@ -22,4 +22,3 @@ print(sia1)
 
 sia3=sia[2:]
 print(sia3)
- 
